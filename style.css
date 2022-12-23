@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.main .sub-main{
+    width: 500px;
+    height: auto;
+    background-color: azure;
+    color: black;
+    box-shadow: 7px -5px 14px 5px rgb(34, 34, 34);
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+.sub-main .text{
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sub-main .text h1{
+    font-size: 31px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sub-main .text span{
+    color: #f0a200;
+}
+.sub-main .image{
+    margin: 0px 20px 0px 20px;
+}
+.sub-main .image img{
+    width: 140px;
+    border-radius: 70px;
+    border: 5px solid #f04f4f;
+}
+.sub-main .contact{
+    width: 150px;
+    line-height: 28px;
+}
+.sub-main .contact i{
+    margin-right: 8px;
+    font-size: 18px;
+}
+.contact .location img{
+    width: 18px;
+}
+.contact .social-icon .fb{
+    color:#3b5998;
+}
+.linkdein{
+    color: #0A66C2;
+}
+.tw{
+    color: #00acee;
+}
+.pin{
+    color: #c8232c;
+}
+.sky{
+    color: #00aff0;
+}
+@media (max-width:499px) {
+    .main{
+        
+    }
+    .sub-main{
+
+    }
+}
